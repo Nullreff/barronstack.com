@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <title>{{ site.title }}</title>
+        <meta name="description" content="{{ site.description }}" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <style type="text/css">
+            .container {
+                text-align: center;
+                width: 700px;
+                margin: 50px auto 0 auto;
+            }
+            .center {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                {{ content }} 
+            </div>
+
+            <footer>
+                <p class="pull-right">&copy; 2013 New Barron</p>
+                <br class="clear"/>
+            </footer>
+        </div> 
+        <script src="/css/bootstrap.min.js"></script>
+    </body>
+</html>

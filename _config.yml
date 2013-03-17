@@ -1,0 +1,11 @@
+# standard jekyll configuration
+
+permalink: /blog/:title/
+pygments: true
+exclude: ['Rakefile', 'README']
+markdown: rdiscount
+
+domain: newbarron.com
+title: New Barron
+description: Game platform for Minecraft and others 
+email: contact@newbarron.com
