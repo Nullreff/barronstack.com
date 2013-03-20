@@ -19,7 +19,7 @@ end
 
 desc 'Build and deploy'
 task :deploy => :build do
-    sh 'rsync -rtzh --progress --delete _site/ webfaction:~/webapps/newbarron_com/'
+    sh 'rsync -rtzh --progress --delete _site/ webfaction:~/webapps/barronstack_com/'
 end
 
 desc 'Create and edit a new post'
